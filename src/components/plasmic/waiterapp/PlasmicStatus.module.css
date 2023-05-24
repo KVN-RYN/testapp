@@ -1,0 +1,433 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-boLEW76WD);
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+@media (min-width: 768px) {
+  .root {
+    padding-top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  :where(.root > *) {
+    grid-column: 4;
+  }
+}
+.iPhone11ProMax7 {
+  background: rgba(244, 244, 247, 1);
+  width: 414px;
+  height: 896px;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.group49 {
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 285px;
+  left: 50px;
+}
+.rectangle11 {
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.029);
+  background: rgba(255, 255, 255, 1);
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
+.bicreditCard2FrontFill {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 64px;
+  overflow: hidden;
+}
+.svg__j5Ia2 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 16px;
+  height: 12px;
+  display: block;
+  top: 2px;
+  left: 0px;
+}
+.text__u3QTz {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 24px;
+  left: 91px;
+}
+.text__rEbF {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(249, 73, 11, 1);
+  position: absolute;
+  top: 57px;
+  left: 92px;
+}
+.maskGroup {
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  -webkit-mask-image: var(--image-2TvMEY30y6);
+  -webkit-mask-size: 70px 70px;
+  -webkit-mask-repeat: no-repeat;
+}
+.image2 {
+  background: url("./images/image3.png") center center / cover no-repeat;
+  transform: translate(0.39699999999999847px, -0.0009999999999763531px);
+  width: 117px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -24px;
+}
+.image14 {
+  background: url("./images/image14.png") center center / cover no-repeat;
+  width: 45px;
+  height: 92px;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 23px;
+}
+.group50 {
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 165px;
+  left: 50px;
+}
+.rectangle12 {
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.029);
+  background: rgba(255, 255, 255, 1);
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
+.bicreditCard2FrontFill2 {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 64px;
+  overflow: hidden;
+}
+.svg__vfZuw {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 16px;
+  height: 12px;
+  display: block;
+  top: 2px;
+  left: 0px;
+}
+.text__a0Yjk {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 26px;
+  left: 92px;
+}
+.text__fh2OY {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(249, 73, 11, 1);
+  position: absolute;
+  top: 57px;
+  left: 92px;
+}
+.maskGroup2 {
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  -webkit-mask-image: var(--image-2TvMEY30y6);
+  -webkit-mask-size: 70px 70px;
+  -webkit-mask-repeat: no-repeat;
+}
+.image3 {
+  background: url("./images/image3.png") center center / cover no-repeat;
+  transform: translate(0.39699999999999847px, -0.0010000000000047748px);
+  width: 117px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -24px;
+}
+.image15 {
+  background: url("./images/image15.png") center center / cover no-repeat;
+  width: 45px;
+  height: 92px;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 23px;
+}
+.group48 {
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 401px;
+  left: 50px;
+}
+.rectangle13 {
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.029);
+  background: rgba(255, 255, 255, 1);
+  width: 315px;
+  height: 102px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px;
+}
+.bicreditCard2FrontFill3 {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 43px;
+  left: 64px;
+  overflow: hidden;
+}
+.svg__eV8OL {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 16px;
+  height: 12px;
+  display: block;
+  top: 2px;
+  left: 0px;
+}
+.text__xqQaV {
+  display: block;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 23px;
+  left: 88px;
+  width: 175px;
+  height: 44px;
+}
+.text__a2MCm {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(249, 73, 11, 1);
+  position: absolute;
+  top: 59px;
+  left: 87px;
+}
+.maskGroup3 {
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  -webkit-mask-image: var(--image-2TvMEY30y6);
+  -webkit-mask-size: 70px 70px;
+  -webkit-mask-repeat: no-repeat;
+}
+.image4 {
+  background: url("./images/image3.png") center center / cover no-repeat;
+  transform: translate(0.39699999999999847px, -0.0009999999999763531px);
+  width: 117px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -24px;
+}
+.image5 {
+  background: url("./images/image4.png") center center / cover no-repeat;
+  width: 129px;
+  height: 86px;
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -30px;
+}
+.image16 {
+  background: url("./images/image16.png") center center / cover no-repeat;
+  width: 47px;
+  height: 95px;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 23px;
+}
+.text__en2T {
+  display: block;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 61px;
+  left: 188px;
+}
+.rectangle2 {
+  background: rgba(249, 73, 11, 1);
+  width: 314px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  top: 785px;
+  left: 50px;
+  border-radius: 30px;
+}
+.text___9ILs7 {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(245, 245, 248, 1);
+  position: absolute;
+  top: 810px;
+  left: 180px;
+}
+.svg__g9Xat {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 24px;
+  height: 24px;
+  display: block;
+  top: 60px;
+  left: 41px;
+  overflow: hidden;
+}
+.group44 {
+  width: 56px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 135px;
+  left: 185px;
+}
+.text__g8Brq {
+  display: block;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg___8FyWh {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #df2c2c;
+  width: 45px;
+  height: 45px;
+  display: block;
+  top: 529px;
+  left: 185px;
+}
+.svg___4JCg {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  mix-blend-mode: normal;
+  width: 29px;
+  height: 29px;
+  display: block;
+  top: 537px;
+  left: 192px;
+  overflow: hidden;
+}
+.text__asCv9 {
+  position: absolute;
+  left: 76px;
+  top: 732px;
+}
